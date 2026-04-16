@@ -30,71 +30,14 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="b214948d-06b2-4992-a063-741307d379b2">
-      <console name="Connection" type="STANDARD" schema="productmanagement" session="Main"><![CDATA[INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Laptop', 'High performance laptop', 75000, 10);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Smartphone', 'Latest Android smartphone', 25000, 25);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Headphones', 'Noise cancelling headphones', 5000, 50);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Keyboard', 'Mechanical keyboard', 3000, 40);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Mouse', 'Wireless mouse', 1500, 60);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Monitor', '24 inch LED monitor', 12000, 20);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Printer', 'All-in-one printer', 9000, 15);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Tablet', '10 inch tablet', 18000, 18);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Camera', 'Digital DSLR camera', 45000, 8);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Speaker', 'Bluetooth speaker', 3500, 35);
-
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Router', 'WiFi router', 2000, 30);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Hard Disk', '1TB external HDD', 4000, 22);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('SSD', '512GB SSD', 6000, 25);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Power Bank', '10000mAh power bank', 1200, 45);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Smart Watch', 'Fitness smartwatch', 7000, 20);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('TV', 'Smart LED TV 43 inch', 35000, 12);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('AC', '1.5 Ton Air Conditioner', 40000, 6);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Refrigerator', 'Double door fridge', 30000, 7);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Washing Machine', 'Front load washing machine', 28000, 9);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Microwave', 'Convection microwave oven', 10000, 14);
-
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Iron Box', 'Electric iron', 1500, 28);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Fan', 'Ceiling fan', 2500, 35);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Mixer', 'Kitchen mixer grinder', 3500, 20);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Toaster', 'Bread toaster', 2000, 18);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Juicer', 'Fruit juicer', 2200, 16);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Water Purifier', 'RO water purifier', 12000, 10);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Vacuum Cleaner', 'Home vacuum cleaner', 8000, 11);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Gaming Console', 'Next-gen gaming console', 50000, 5);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Game Controller', 'Wireless controller', 4500, 13);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('VR Headset', 'Virtual reality headset', 25000, 4);
-
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Tripod', 'Camera tripod stand', 1800, 19);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Ring Light', 'LED ring light', 2200, 17);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Webcam', 'HD webcam', 3500, 21);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Microphone', 'USB condenser mic', 4000, 15);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Projector', 'Full HD projector', 30000, 6);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Charger', 'Fast charger', 800, 55);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Cable', 'USB Type-C cable', 300, 100);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Adapter', 'Power adapter', 600, 70);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Extension Board', 'Multi plug extension', 1200, 32);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('UPS', 'Power backup UPS', 5000, 10);
-
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Graphics Card', 'High-end GPU', 70000, 3);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Motherboard', 'Gaming motherboard', 15000, 7);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Processor', 'Latest CPU', 25000, 8);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('RAM', '16GB DDR4 RAM', 6000, 20);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Cabinet', 'PC cabinet case', 4000, 12);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Cooling Fan', 'CPU cooling fan', 1500, 25);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Thermal Paste', 'CPU thermal paste', 500, 40);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('NAS Storage', 'Network storage device', 35000, 5);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Docking Station', 'Laptop docking station', 8000, 9);
-INSERT INTO products (product_name, description, price, stock_quantity) VALUES ('Stylus Pen', 'Touchscreen stylus', 1200, 30);
-
-select *from products;]]></console>
+      <console name="Connection" type="STANDARD" schema="productmanagement" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="b214948d-06b2-4992-a063-741307d379b2" object-ref="consoles/Connection" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabasePrerequisiteManager">
     <prerequisites />
